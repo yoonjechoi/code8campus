@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import {BrowserRouter as Router, Switch} from 'react-router-dom';
 
 import logo from '../logo.svg';
-import 'bootstrap';
 import styles from './App.scss';
 
 import NavigationBar from 'components/NavigationBar';

@@ -158,7 +158,7 @@ module.exports = {
           // in development "style" loader enables hot editing of CSS.
           {
             test: /\.(css|scss)$/,
-            exclude: [/node_modules/, /App.scss$/],
+            exclude: [/node_modules/, /bootstrap.scss$/],
             use: [
               require.resolve('style-loader'),
               {
@@ -201,7 +201,7 @@ module.exports = {
             ],
           },
           {
-            test: /App.scss$/,
+            test: /bootstrap.scss$/,
             use: [
               require.resolve('style-loader'),
               {

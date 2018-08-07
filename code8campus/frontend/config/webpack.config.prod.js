@@ -167,7 +167,7 @@ module.exports = {
           // in the main CSS file.
           {
             test: /\.(css|scss)$/,
-            exclude: [/node_modules/, /App.scss$/],
+            exclude: [/node_modules/, /bootstrap.scss$/],
             loader: ExtractTextPlugin.extract(
               Object.assign(
                 {
@@ -226,7 +226,7 @@ module.exports = {
             // Note: this won't work without `new ExtractTextPlugin()` in `plugins`.
           },
           {
-            test: /App.scss$/,
+            test: /bootstrap.scss$/,
             loader: ExtractTextPlugin.extract(
               Object.assign(
                 {
